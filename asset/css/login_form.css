@@ -1,0 +1,108 @@
+#outerdiv {
+	margin-left: auto ;
+    margin-right: auto ;
+	position:absolute;
+	top:60%;
+	left:50%;
+	overflow:show;
+	
+}
+#headerdiv {
+	margin-left: auto ;
+    margin-right: auto ;
+	position:absolute;
+	/*top:90%;*/
+	/*left:45%;*/
+	overflow:show;
+	text-align: center;
+	width:99%;
+}
+#footerdiv {
+	margin-left: auto ;
+    margin-right: auto ;
+	position:absolute;
+	top:90%;
+	/*left:45%;*/
+	overflow:show;
+	text-align: center;
+	width:99%;
+}
+#innerdiv {
+	/*font-family: helvetica;*/
+	width: 180px;
+	position:absolute;
+	width: 340px;
+	height: 300px;
+	top:-150px;
+	left:-170px
+}
+
+.error_msg{
+	color: red;
+	font-weight: bold;
+}
+
+.cssform {
+	/*font-family: helvetica;*/
+	background-color: #eeeeee;
+	padding: 2px 2px 8px 2px;
+
+}
+
+.cssform legend {
+	font-size: 18pt;
+	
+}
+
+.cssform p{
+width: 180px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left: 100px; /*width of left column containing the label elements*/
+/*border-bottom: 1px dashed gray;*/
+height: 1%;
+}
+
+.cssform label{
+font-weight: bold;
+float: left;
+margin-left: -100px; /*width of left column*/
+width: 100px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.cssform input[type="text"]{ /*width of text boxes. IE6 does not understand this attribute*/
+width: 180px;
+}
+
+.cssform input[type="password"]{ /*width of text boxes. IE6 does not understand this attribute*/
+width: 180px;
+}
+
+.cssform div{ 
+margin-top: 10px;
+}
+
+.cssform textarea{
+width: 200px;
+height: 150px;
+}
+
+/*.threepxfix class below:
+Targets IE6- ONLY. Adds 3 pixel indent for multi-line form contents.
+to account for 3 pixel bug: http://www.positioniseverything.net/explorer/threepxtest.html
+*/
+
+* html .threepxfix{
+margin-left: 3px;
+}
+
+.tfont{
+	/*font: 14px/18px;*/
+	font-family: "trebuchet MS", Arial, Tahoma, Sans-serif;
+	text-decoration: none; 
+	/*color:white !important;*/
+	outline: none;
+	letter-spacing: 0;
+	font-variant:small-caps;
+}

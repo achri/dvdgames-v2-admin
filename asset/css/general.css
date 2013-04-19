@@ -1,0 +1,40 @@
+tHead {display: table-header-group;}
+
+/* BUTTON */
+.jq-button-radio {
+	margin:-10 -25 -10 -25;
+}
+
+.jq-button-radio label{
+	width: 99%;
+	text-align: left;
+}
+
+/* SELECTABLE */
+.feedback { font-size: 1.4em; }
+
+.selectable .ui-selecting { background: white; }
+
+.selectable .ui-selected { background: gray; color: white; !important}
+
+.selectable { list-style-type: none; margin: -10 -25 -10 -25; padding: 0;}
+
+.selectable li { margin: 3px; padding: 0.4em; }
+
+.selectable li:hover { background: lightgray; }
+
+/* INPUT UPPERCASE */
+.uppercase { text-transform: uppercase}
+
+/* TAB SMALL */
+.tab_small {
+	font-size: 14px;
+}
+
+/* fieldset */
+
+/* input uppercase */
+.uppercase {
+	text-transform: uppercase;
+}
+
